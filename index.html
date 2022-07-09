@@ -9,18 +9,8 @@
 </head>
 
 <body>
-    <script>
-        let data = {
-            username: "wael",
-            age: 26
-        };
-        // for request data
-        fetch("http://localhost/postApi.php", {
-            body: JSON.stringify(data),
-            method: 'POST'
-        }).then(response => response.json()).then(api_data => {
-            console.log(api_data);
-        });
+    <p id="data"> </p>
+    <script src="/js.js">
     </script>
 </body>
 
